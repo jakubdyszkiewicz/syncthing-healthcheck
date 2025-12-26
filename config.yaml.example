@@ -1,0 +1,10 @@
+check_interval: 1h
+syncthing:
+  url: http://syncthing:8384
+devices:
+  - id: XXXXXXX-XXXXXXX-XXXXXXX-XXXXXXX-XXXXXXX-XXXXXXX-XXXXXXX-XXXXXXX
+    max_unavailability: 168h
+    webhook_url: "https://hc-ping.com/00000000-0000-0000-0000-000000000000"
+  - id: XXXXXXX-XXXXXXX-XXXXXXX-XXXXXXX-XXXXXXX-XXXXXXX-XXXXXXX-YYYYYYY
+    max_unavailability: 168h
+    webhook_url: "https://hc-ping.com/00000000-0000-0000-0000-000000000001"
